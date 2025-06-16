@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { API_URL } from '../../data/apiPath';
-import { Link } from 'react-router-dom'; // optional if you want to link to login page
+import { Link } from 'react-router-dom'; 
 
 const Register = ({ loginhandler }) => {
   const containerStyle = {
